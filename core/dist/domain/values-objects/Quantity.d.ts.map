@@ -1,0 +1,1 @@
+{"version":3,"file":"Quantity.d.ts","sourceRoot":"","sources":["../../../src/domain/values-objects/Quantity.ts"],"names":[],"mappings":"AAAA,qBAAa,QAAQ;IACI,OAAO,CAAC,QAAQ,CAAC,MAAM;IAA5C,OAAO;IAEP,MAAM,CAAC,MAAM,CAAC,QAAQ,EAAE,MAAM;IAY9B,IAAI,KAAK,IAAI,MAAM,CAElB;CACJ"}

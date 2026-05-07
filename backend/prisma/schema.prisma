@@ -19,3 +19,21 @@ model User {
   email String @unique
 }
 
+model Product {
+  id String @id @default(uuid())
+  name String
+  sku String @unique
+  priceInCents Int
+  stock Int
+  category ProductCategory
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+enum ProductCategory {
+  BIKE
+  PART
+  ACCESSORY
+  SERVICE
+}
+
